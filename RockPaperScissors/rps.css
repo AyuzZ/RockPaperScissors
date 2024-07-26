@@ -1,0 +1,75 @@
+body{
+    /* border: 1px white solid; */
+    background-color: #244855;
+    font: Helvetica, sans-serif;
+    color: #dfe4e1;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(235, 15, 81);
+    font-size: 35px;
+}
+
+.choices{
+    /* border: 1px white solid; */
+    padding: 10px;
+    max-width: fit-content;
+    margin: 6px;
+}
+
+.choices button{
+    /* border: 1px white solid; */
+    background-color: rgb(61, 169, 184);
+    color: #d9f5f5;
+    font-size: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    min-width: 150px;
+    cursor: pointer;
+    transition: background-color 0,5s ease;
+}
+
+.choices button:hover{
+    background-color: rgb(72, 201, 40);
+}
+
+#usersChoiceDisplay, #computersChoiceDisplay {
+    font-size: 20px;
+}
+
+#resultDisplay{
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.win{
+    color: rgb(16, 241, 16);
+}
+
+.lose{
+    color: rgb(245, 48, 48);
+}
+
+.draw{
+    color: rgb(126, 117, 117);
+}
+
+#winCounterDisplay{
+    color: rgb(16, 241, 16);
+    font-size: 20px;
+}
+
+#lossCounterDisplay{
+    color: rgb(245, 48, 48);
+    font-size: 20px;
+}
+
+#drawCounterDisplay{
+    color: rgb(126, 117, 117);
+    font-size: 20px;
+}
+
